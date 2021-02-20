@@ -1,0 +1,81 @@
+body{
+    margin:0;
+}
+
+.footer{
+    display: flex;
+    padding: 1px;
+    margin: 0px;
+    justify-content: center; 
+    border-top: solid 3px #e72e2e;
+    background-color: black;
+
+}
+
+.textfooter{
+    color: white;
+    margin-top: 3px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.spclogofooter{
+    justify-content: center;
+}
+
+#logofooter{
+    display: inline-block;
+    justify-content: center;
+    max-width:100%;
+    max-height:100%;
+}
+
+.footerlinks{
+    margin-left: 950px;
+    padding: 1px;
+    list-style-type: none;
+}
+
+.linklist{
+    padding: 2px;
+    transition: 2s;
+}
+
+.footerlist{
+    display: inline-block;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    transition: 2s;
+}
+
+.footertext{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-decoration: none;
+    transition: 0.7s #e72e2e;
+}
+
+.footertext:hover{
+    color: #e72e2e;
+    transition: 0.6s;
+}
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1370px) {
+    .footerlinks{
+        margin-left: 700px;
+    }
+
+}
+
+
+@media screen and (max-width: 1279px) {
+    .footerlinks{
+        margin-left: 900px;
+    }
+
+}
+
+/* END RESPONSIVE */

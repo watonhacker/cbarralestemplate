@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+#skills1{
+    margin-top: 500px;
+    background-image: url(img/tyres.png);
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulodiv{
+    text-align: center;
+}
+
+.titulodest{
+    font-family: 'Montserrat', sans-serif;
+    background: #FBDE37;
+    padding: 3px 3px;
+    display: inline-flex;
+    justify-content: center;
+    box-align: center;
+    border-radius: 10px;
+    border: 3px solid #283571 ;
+    box-shadow: 1px 5px 10px #283571;
+}
+.container{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(img/tyres.png);
+    justify-content: center;
+    align-items: center;
+    border-top: solid 3px #e72e2e;
+    
+}
+.titulos{
+    font-weight: 300;
+}
+.infocasas{
+    font-weight: 300;
+}
+.precios{
+    font-weight: 300;
+}
+.flex{
+    display: flex;
+}
+.text-center{
+    text-align: center;
+}
+.skills{
+    background: #000000;
+    color: white;
+    border: 2px solid #e72e2e;
+    margin: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 1px #ffffff;
+    margin-left: 35px;
+    margin-right: 35px;
+} 
+.precios{
+    font-size: 30px;
+    color: #f6ecf0;
+}
+.btn-ver{
+    background: #f6ecf0;
+    display: block;
+    padding: 7px;
+    color: black;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 3px;
+}
+.btn-ver:hover{
+    background: #b4a8ae;
+    transition: 0.4s;
+}
+
+.skillsline{
+    border-color:#e72e2e
+}
+
+.titulos{
+    padding-bottom: 6px;
+}
+
+.infoskill{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/*IMAGENES*/
+.imgs{
+    width: 150px;
+}

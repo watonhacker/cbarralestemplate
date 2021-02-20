@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.ctc{
+    display: flex;
+    justify-content: center;
+    background-image: url(background/raceflag.png);
+    z-index: -1;
+}
+
+.raceflag{
+    position: absolute;
+    z-index: -1;
+    max-width: 100%;
+    max-height: 80%;
+}
+
+.contactsection{
+    display: flex;
+    background-image: url(backgrond/raceflag.png);
+    z-index: 0;
+    margin-top: 25px;
+}
+
+#msg6{
+    margin-right: 400px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contactbox{
+    display: block;
+    position: relative;
+    /* left: 400px; 
+    max-width: 450px; */
+    border: solid 3px #e72e2e;
+    font-family: 'Montserrat', sans-serif;
+    background: black;
+    color: white;
+    justify-content: center;
+    padding: 10px;
+    margin
+}
