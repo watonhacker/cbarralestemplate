@@ -14,7 +14,7 @@ const formEvent = form.addEventListener("submit", (event) => {
 
 const sendMail = (mail) => {
     //1.
-    fetch("C:/Users/Cris/Google%20Drive/Full%20Stack/Work/Repuestos-test2/send", {
+    fetch("https://watonhacker.github.io/test-1/send", {
       method: "post", //2.
       body: mail, //3.
   
