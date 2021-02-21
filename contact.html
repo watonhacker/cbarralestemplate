@@ -4,34 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto - Test 2</title>
+    <title>Contacto - Test 2</title> <!--TEST 2-->
     <link rel="stylesheet" href="css/stylex.css">
     <link rel="stylesheet" href="css/mid.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/contact.css">
+    <link rel="icon" href="img/faviconcb.png">
+    <script src="js/email.js"></script>
 </head>
 <body>
 
     <div class="flexbox">
         <img id="logo" src="img/800x160.png" alt="">
         <div class="menubtn">
-           <a class="menutext" href="index.html">Inicio</a>   
-        </div>
-        <div class="menubtn">
-            <a class="menutext" href="#">Repuestos</a>
-        </div>
-        <div class="menubtn">
-            <a class="menutext" href="#">Baterías</a>
-        </div>
-        <div class="menubtn">
-            <a class="menutext" href="#">Serviteca</a>
-        </div>
-        <div class="menubtn">
-            <a class="menutext" href="#">Sobre nosotros</a>
-        </div>
-        <div class="menubtn">
-            <a class="menutext" href="contact.html">Contacto</a>
-        </div>
+            <a class="menutext" href="index.html">Inicio</a>   
+         </div>
+         <div class="menubtn">
+             <a class="menutext" href="#">Repuestos</a>
+         </div>
+         <div class="menubtn">
+             <a class="menutext" href="#">Baterías</a>
+         </div>
+         <div class="menubtn">
+             <a class="menutext" href="#">Serviteca</a>
+         </div>
+         <div class="menubtn">
+             <a class="menutext" href="#">Sobre nosotros</a>
+         </div>
+         <div class="menubtn">
+             <a class="menutext" href="location.html">Ubicación</a>
+         </div>
+         <div class="menubtn">
+             <a class="menutext" href="contact.html">Contacto</a>
+         </div>
     </div>   
  
 <br>
@@ -39,43 +44,69 @@
 <br>
 <br>
 <section class="ctc">
+
     <img class="raceflag" src="background/raceflag.jpg" alt="">
-  <div class="contactsection"> 
+<div class="contactsection"> 
 
   <h2 id="msg6">¡Déjanos un mensaje! <br> 
     y lo responderemos lo más pronto posible
   </h2>
 
-   <div class="contactbox">
+
+ <div class="contactbox">
+
+  <form id="contact-form" method="POST" action="send" enctype="multipart/form-data">
 
     <label for="name">Nombre:
-        <input type="text" placeholder="Juanin Juan Harry" style="margin-left: 1px;">
+        <input class="inputs" id="name" name="nombre" type="text" placeholder="Juanin Juan Harry" style="margin-left: 1px;">
     </label><br>
-    <label for="name">Correo: 
-        <input type="email" placeholder="juanito@juanin.cl" style="margin-left: 14px;">
+    <label for="email">Correo: 
+        <input class="inputs" id="email" name="correo" type="email" placeholder="juanito@juanin.cl" style="margin-left: 14px;">
     </label><br>
-    <label for="phone">Teléfono:
-        <input type="text">
+    <label for="phone">Asunto:
+        <input class="inputs" id="subject" name="asunto" type="text">
     </label><br>
-    <label for="name">Mensaje:
-        <textarea for="text" id="" cols="30" rows="10"> </textarea>
+    <label for="message">Mensaje:
+        <textarea class="inputs" id="messagemail" name="mensaje" for="text" id="" cols="30" rows="10"> </textarea>
     </label>
     <label for="input"><br>
-        <input type="submit" value="ENVIAR">
+        <input class="inputs" type="submit" value="ENVIAR">
     </label>
         
-   </div>
+  </form>
 
-  </div>
+ </div>
+
+</div>
+  
 
 </section>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 <div class="footer">
     <div class="spclogofooter">
     <img id="logofooter" src="img/logo.png" alt="">
-    <p class="textfooter"> Dirección 123, Comuna. <br>
+    <div> <p class="textfooter address1"> Dirección 123, Comuna.<br> <!-- CAMBIAR -->
      +56 9 1111 1111 <br>
-     email@email.com </p>
+     email@email.com </p> <hr class="verthr">
+     <p class="textfooter address2" style="margin-left: 15px;">Dirección 123, Comuna.<br> <!-- CAMBIAR -->
+        +56 9 1111 1111 <br>
+        email@email.com</p> </div> 
     </div>
     <div class="footerlist">
      <ul class="footerlinks">
@@ -88,8 +119,6 @@
      </ul>
     </div>
 </div>
-     
-
 
 </body>
 </html>

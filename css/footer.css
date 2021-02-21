@@ -16,6 +16,7 @@ body{
     color: white;
     margin-top: 3px;
     font-family: 'Montserrat', sans-serif;
+    display: inline-block;
 }
 
 .spclogofooter{
@@ -48,6 +49,10 @@ body{
     transition: 2s;
 }
 
+.address1{
+    margin-right:8px;
+}
+
 .footertext{
     font-family: 'Montserrat', sans-serif;
     color: white;
@@ -60,12 +65,26 @@ body{
     transition: 0.6s;
 }
 
+.verthr{ 
+    border: none;
+    border-left: 3px solid hsla(200, 10%, 50%,100);
+    height: 5vh;
+    width: 1px;
+    display: inline-block;
+    position: absolute;
+    
+}
+
 
 /* RESPONSIVE */
 
 @media screen and (max-width: 1370px) {
     .footerlinks{
         margin-left: 700px;
+    }
+
+    .verthr{
+        height: 7vh;
     }
 
 }

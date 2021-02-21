@@ -11,7 +11,8 @@
     position: absolute;
     z-index: -1;
     max-width: 100%;
-    max-height: 80%;
+    max-height: 100%;
+    height: fit-content;
 }
 
 .contactsection{
@@ -24,11 +25,19 @@
 #msg6{
     margin-right: 400px;
     font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    width: auto;
+    height: fit-content;
+    padding: 6px;
+    color: white;
+    border: solid 3px #e72e2e;
 }
 
 .contactbox{
     display: block;
     position: relative;
+    left: 0px;
+    margin-top: 30px;
     /* left: 400px; 
     max-width: 450px; */
     border: solid 3px #e72e2e;
@@ -36,6 +45,21 @@
     background: black;
     color: white;
     justify-content: center;
-    padding: 10px;
-    margin
+    padding: 15px;
+}
+
+.inputs{
+    padding: 4px;
+    margin: 5px
+}
+
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1370px) {
+    .contactbox{
+        left: -30px;
+    }
+
 }
