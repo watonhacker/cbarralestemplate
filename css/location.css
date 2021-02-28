@@ -1,0 +1,34 @@
+.localestitle{
+    justify-items: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    border: solid 3px black;
+}
+
+.mapouter{
+    display: inline-flex;
+    text-align: left;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+}
+
+.locales{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-flex;
+
+}
+
+.mapouter{
+    display: inline-flex;
+}
+
+.gmap_canvas1{
+    margin-right: 200px;
+    max-width: auto;
+}
+
+.gmap_canvas2{
+    height: auto;
+    max-width: auto;
+}
