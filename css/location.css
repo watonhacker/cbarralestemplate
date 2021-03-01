@@ -1,3 +1,14 @@
+.location{
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+
 .localestitle{
     justify-items: center;
     align-items: center;
@@ -5,30 +16,35 @@
     border: solid 3px black;
 }
 
-.mapouter{
+.locales{
+    font-family: 'Montserrat', sans-serif;
     display: inline-flex;
+    margin: 0 auto;
+}
+
+.mapouter{
+    display: flex;
     text-align: left;
     justify-items: center;
     align-items: center;
     position: relative;
-}
-
-.locales{
-    font-family: 'Montserrat', sans-serif;
-    display: inline-flex;
-
-}
-
-.mapouter{
-    display: inline-flex;
+    margin: 0 auto;
 }
 
 .gmap_canvas1{
-    margin-right: 200px;
+    margin-right: auto;
+    margin-left: auto;
     max-width: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .gmap_canvas2{
-    height: auto;
+    margin-right: auto;
+    margin-left: auto;
     max-width: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
