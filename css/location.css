@@ -22,6 +22,7 @@
     margin: 0 auto;
 }
 
+/*
 .mapouter{
     display: flex;
     text-align: left;
@@ -31,6 +32,18 @@
     margin: 0 auto;
 }
 
+*/
+
+.mapouter2 {
+    position:relative; 
+    text-align: center; 
+    justify-content: center; 
+    align-items: center; 
+    height:500px; 
+    width:500px; 
+} 
+
+
 .gmap_canvas1{
     margin-right: auto;
     margin-left: auto;
@@ -39,7 +52,7 @@
     justify-content: center;
     display: flex;
 }
-
+/*
 .gmap_canvas2{
     margin-right: auto;
     margin-left: auto;
@@ -47,4 +60,12 @@
     align-items: center;
     justify-content: center;
     display: flex;
+}
+*/
+
+.gmap_canvas2 {
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:500px;
 }
