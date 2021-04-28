@@ -16,92 +16,127 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/location.css">
+    <link rel="stylesheet" href="css/layout.css">
     <link rel="icon" href="img/faviconcb.png">
 </head>
 <body>
-<div class="flexbox">
-    <img id="logo" src="img/800x160.png" alt="">
-    <div class="menubtn">
-       <a class="menutext" href="index.html">Inicio</a>   
-    </div>
-    <div class="menubtn">
-        <a class="menutext" href="#">Repuestos</a>
-    </div>
-    <div class="menubtn">
-        <a class="menutext" href="#">Baterías</a>
-    </div>
-    <div class="menubtn">
-        <a class="menutext" href="#">Serviteca</a>
-    </div>
-    <div class="menubtn">
-        <a class="menutext" href="#">Sobre nosotros</a>
-    </div>
-    <div class="menubtn">
-        <a class="menutext" href="location.html">Ubicación</a>
-    </div>
-    <div class="menubtn">
-        <a class="menutext" href="contact.html">Contacto</a>
-    </div>
-</div>   
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<header class="header">
+    <div class="flexbox">
+        <a href="/"> <img id="logo" src="img/800x160.png" alt=""></a>
+       
+        <div class="menu">
+            <div class="menubtn">
+                <a class="menutext" href="index.html">Inicio</a>   
+             </div>
+             <div class="menubtn">
+                 <a class="menutext" href="#">Repuestos</a>
+             </div>
+             <div class="menubtn">
+                 <a class="menutext" href="#">Baterías</a>
+             </div>
+             <div class="menubtn">
+                 <a class="menutext" href="#">Serviteca</a>
+             </div>
+             <div class="menubtn">
+                 <a class="menutext" href="#">Sobre nosotros</a>
+             </div>
+             <div class="menubtn">
+                 <a class="menutext" href="location.html">Ubicación</a>
+             </div>
+             <div class="menubtn">
+                 <a class="menutext" href="contact.html">Contacto</a>
+             </div>
+        </div>
+
+    </div>   
+    <div class="main-image">
+        <div class="info">
+           <img src="/img/tire.png" alt=""> <h2>Accesorios para vehículos</h2>
+        </div>
+
+    </div>
+</header>
+
+
+
+<main class="main">
+    <section class="container-slider">
+
+        <div class="slider">
+
+       
+
+            <ul>
+                
+ 
+                <li><img src="/img/slider-1.png" alt="slide1"></li>
+                <li><img src="/img/slider-2.png" alt="slide2"></li>
+                <li><img src="/img/slider-3.png" alt="slide3"></li>
+                <li><img src="/img/slider-4.png" alt="slide4"></li>
  
 
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+            </ul>
+        </div>
+    </section>
+   
+    <section class="container flex text-center" >
+        <div class="skills">
+            <h2 class="titulos">Lorem, ipsum.</h2>  <!-- CAMBIAR -->
+            <img class="imgs" src="img/test.png" alt="casa1">
+            <p class="infoskill">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, quo!.</p> <!-- CAMBIAR -->
+            <hr class="skillsline">  
+            <p class="infoskill">Lorem ipsum dolor sit.</p> <!-- CAMBIAR -->
+            <p class="infoskill">Lorem ipsum dolor sit amet.</p>
+            <!-- <p class="precios">$00.000.000</p> -->
+            <hr class="skillsline"> 
+            <a href="#" class="btn-ver">See more</a>  <!-- CAMBIAR -->
+        </div>
+        <div class="skills">
+            <h2 class="titulos">Lorem, ipsum.</h2>  <!-- CAMBIAR -->
+            <img class="imgs" src="img/test.png" alt="casa2">
+            <p class="infoskill">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, quo!.</p>  <!-- CAMBIAR -->
+            <hr class="skillsline">
+            <p class="infoskill">Lorem ipsum dolor sit.</p>  <!-- CAMBIAR -->
+            <p class="infoskill">Lorem ipsum dolor sit amet.</p>
+            <!-- <p class="precios">$00.000.000</p> -->
+            <hr class="skillsline">
+            <a href="#" class="btn-ver">See more</a>   <!-- CAMBIAR -->
+         </div>
+         <div class="skills">
+          <h2 class="titulos">Lorem, ipsum.</h2>  <!-- CAMBIAR -->
+          <img class="imgs" src="img/test.png" alt="casa3">
+           <p class="infoskill">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, quo!.</p>  <!-- CAMBIAR -->
+           <hr class="skillsline">
+           <p class="infoskill">Lorem ipsum dolor sit.</p>  <!-- CAMBIAR -->
+           <p class="infoskill">Lorem ipsum dolor sit amet.</p>
+           <!-- <p class="precios">$00.000.000</p> -->
+           <hr class="skillsline">
+           <a href="#" class="btn-ver">See more</a>  <!-- CAMBIAR -->
+           
+         </div>
+    <!-- </div> -->
+    </section>
 
+    <section id="contact"class="contacto">
+        <h3>¿Deseas comprar algún producto?</h3>
+        <h3>¡Contáctanos!</h3>
+        <div class="container-contact">
+            <form class="container-contact__form" id ="contact-form" action="correo.php" method="POST">  
+            
+                        <input type="text" name="name" id="name" placeholder="Ingrese su nombre" required > 
+        
+                        <input type="email" name="email" id="email" placeholder="Ingrese su correo" required>
 
+                        <input type="text" name="asunto" id="asunto" placeholder="Asunto" required>
+                        <textarea name="mensaje" id="textarea" placeholder="Escriba su mensaje..." required ></textarea>
+                        <input type="submit" id="submit" value="Enviar">
+            </form> 
+        </div>
+    </section>
+</main>
 
-    <section class="container flex text-center" style="background-image: url(img/tyres.png);">
-      <div class="skills">
-       <h2 class="titulos">Lorem, ipsum.</h2>  <!-- CAMBIAR -->
-        <img class="imgs" src="img/test.png" alt="casa1">
-        <p class="infoskill">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, quo!.</p> <!-- CAMBIAR -->
-        <hr class="skillsline">  
-        <p class="infoskill">Lorem ipsum dolor sit.</p> <!-- CAMBIAR -->
-         <p class="infoskill">Lorem ipsum dolor sit amet.</p>
-       <!-- <p class="precios">$00.000.000</p> -->
-        <hr class="skillsline"> 
-        <a href="#" class="btn-ver">See more</a>  <!-- CAMBIAR -->
-      </div>
-      <div class="skills">
-        <h2 class="titulos">Lorem, ipsum.</h2>  <!-- CAMBIAR -->
-        <img class="imgs" src="img/test.png" alt="casa2">
-         <p class="infoskill">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, quo!.</p>  <!-- CAMBIAR -->
-         <hr class="skillsline">
-         <p class="infoskill">Lorem ipsum dolor sit.</p>  <!-- CAMBIAR -->
-         <p class="infoskill">Lorem ipsum dolor sit amet.</p>
-         <!-- <p class="precios">$00.000.000</p> -->
-         <hr class="skillsline">
-         <a href="#" class="btn-ver">See more</a>   <!-- CAMBIAR -->
-       </div>
-       <div class="skills">
-        <h2 class="titulos">Lorem, ipsum.</h2>  <!-- CAMBIAR -->
-        <img class="imgs" src="img/test.png" alt="casa3">
-         <p class="infoskill">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, quo!.</p>  <!-- CAMBIAR -->
-         <hr class="skillsline">
-         <p class="infoskill">Lorem ipsum dolor sit.</p>  <!-- CAMBIAR -->
-         <p class="infoskill">Lorem ipsum dolor sit amet.</p>
-         <!-- <p class="precios">$00.000.000</p> -->
-         <hr class="skillsline">
-         <a href="#" class="btn-ver">See more</a>  <!-- CAMBIAR -->
-         
-       </div>
-  <!-- </div> -->
-  </section>
 
 <div class="footer">
     <div class="spclogofooter">

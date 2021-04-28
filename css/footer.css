@@ -1,14 +1,20 @@
 body{
     margin:0;
+    box-sizing: border-box;
 }
 
 .footer{
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center
+    ;
     padding: 1px;
     margin: 0px;
-    justify-content: center; 
-    border-top: solid 3px #e72e2e;
+
+    border-top: solid 1px #e72e2e;
     background-color: black;
+    padding:2.5rem;
 
 }
 
@@ -31,7 +37,7 @@ body{
 }
 
 .footerlinks{
-    margin-left: 950px;
+
     padding: 1px;
     list-style-type: none;
 }
@@ -79,9 +85,6 @@ body{
 /* RESPONSIVE */
 
 @media screen and (max-width: 1370px) {
-    .footerlinks{
-        margin-left: 700px;
-    }
 
     .verthr{
         height: 7vh;
@@ -89,12 +92,5 @@ body{
 
 }
 
-
-@media screen and (max-width: 1279px) {
-    .footerlinks{
-        margin-left: 900px;
-    }
-
-}
 
 /* END RESPONSIVE */

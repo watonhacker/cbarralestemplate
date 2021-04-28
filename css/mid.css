@@ -9,6 +9,9 @@
     margin-right: auto;
 }
 
+
+
+
 .titulodiv{
     text-align: center;
 }
@@ -25,15 +28,21 @@
     box-shadow: 1px 5px 10px #283571;
 }
 .container{
+    background-image: url('/img/tyres.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     display: flex;
+    flex-wrap:wrap;
+
+    padding:4rem 0;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
-    background-image: url(img/tyres.png);
     justify-content: center;
     align-items: center;
-    border-top: solid 3px #e72e2e;
+
     
 }
 .titulos{
@@ -52,15 +61,18 @@
     text-align: center;
 }
 .skills{
-    background: #000000;
+    background: #111;
     color: white;
-    border: 2px solid #e72e2e;
-    margin: 50px;
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.5);
+    margin: 20px;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 3px 3px 10px 1px #ffffff;
-    margin-left: 35px;
-    margin-right: 35px;
+    padding:1rem;
+    width:30%;
+    min-width:250px;
+    max-width:350px;
+
+
 } 
 .precios{
     font-size: 30px;
@@ -74,6 +86,8 @@
     text-decoration: none;
     border-radius: 3px;
     margin-bottom: 3px;
+    width:100px;
+    margin:0 auto;
 }
 .btn-ver:hover{
     background: #b4a8ae;
@@ -90,8 +104,6 @@
 
 .infoskill{
     color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 /*IMAGENES*/
 .imgs{
