@@ -3,6 +3,11 @@ body{
 }
 
 .footer{
+    /* position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 99.9%; */
+    
     display: flex;
     padding: 1px;
     margin: 0px;
