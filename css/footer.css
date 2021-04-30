@@ -64,6 +64,10 @@ body{
     margin-right:8px;
 }
 
+.address2{
+    margin-left: 15px;
+}
+
 .footertext{
     font-family: 'Montserrat', sans-serif;
     color: white;
@@ -96,6 +100,28 @@ body{
     }
 
 }
+
+@media (max-width: 599px) { 
+    #logofooter{
+        display: inline-flexbox;
+        justify-content: center;
+        max-width:75%;
+        max-height:75%;
+    }
+    
+    .verthr{
+        display:none;
+    }
+
+    .spclogofooter {
+        flex-direction: column;
+    }
+ 
+    .address2{
+        margin-left: 0;
+    }
+}
+
 
 
 /* END RESPONSIVE */
