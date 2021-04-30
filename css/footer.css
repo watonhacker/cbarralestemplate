@@ -90,7 +90,6 @@ body{
     
 }
 
-
 /* RESPONSIVE */
 
 @media screen and (max-width: 1370px) {
@@ -103,7 +102,7 @@ body{
 
 @media (max-width: 599px) { 
     #logofooter{
-        display: inline-flexbox;
+        display: inline-block;
         justify-content: center;
         max-width:75%;
         max-height:75%;
@@ -121,7 +120,5 @@ body{
         margin-left: 0;
     }
 }
-
-
 
 /* END RESPONSIVE */
