@@ -168,7 +168,8 @@ body {
     align-items: center;
     flex-direction: column;
     padding: 1rem 0;
-    margin-top: 2rem; }
+    margin-top: 2rem;
+    font-family: 'Montserrat', sans-serif; }
     .contacto h3 {
       color: #333;;
 
@@ -179,7 +180,8 @@ body {
     display: flex;
     width: 90%;
     margin: auto;
-    align-items: center; }
+    align-items: center; 
+}
   
   .container-contact__form {
     display: flex;
@@ -190,7 +192,9 @@ body {
     padding: 10px 20px;
     box-sizing: border-box;
     margin: 0 auto;
-    color: #fff; }
+    color: #fff; 
+     
+    }
   
   .container-contact__form > h4 {
     letter-spacing: 1px;
@@ -198,7 +202,12 @@ body {
   
   form {
     width: 100%; }
+
+  input{
+    font-family: 'Montserrat', sans-serif; }
   
+  textarea{
+    font-family: 'Montserrat', sans-serif; }
   .container-contact__form > input,
   .container-contact__form > textarea,
   #submit {
