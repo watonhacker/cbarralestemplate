@@ -16,104 +16,97 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/location.css">
+    <link rel="stylesheet" href="css/layout.css">
     <link rel="icon" href="img/faviconcb.png">
    <!--  <script src="js/email.js"></script> PARA EL FINAL -->
 </head>
 <body>
-
+<header class="header">
     <div class="flexbox">
-        <img class="logo" src="img/800x160.png" alt="">
-        <div class="menubtn">
-            <a class="menutext" href="index.html">Inicio</a>   
-         </div>
-         <div class="menubtn">
-             <a class="menutext" href="spare.html">Repuestos</a>
-         </div>
-         <div class="menubtn">
-             <a class="menutext" href="#">Baterías</a>
-         </div>
-         <div class="menubtn">
-             <a class="menutext" href="#">Serviteca</a>
-         </div>
-         <div class="menubtn">
-             <a class="menutext" href="#">Sobre nosotros</a>
-         </div>
-         <div class="menubtn">
-             <a class="menutext" href="location.html">Ubicación</a>
-         </div>
-         <div class="menubtn">
-             <a class="menutext" href="contact.html">Contacto</a>
-         </div>
+        <a href="/"> <img id="logo" src="img/800x160.png" alt=""></a> 
+       
+        <div class="menu">
+            <div class="menubtn">
+                <a class="menutext" href="index.html">Inicio</a>   
+             </div>
+             <div class="menubtn">
+                 <a class="menutext" href="#">Repuestos</a>
+             </div>
+             <div class="menubtn">
+                 <a class="menutext" href="#">Baterías</a>
+             </div>
+             <div class="menubtn">
+                 <a class="menutext" href="#">Serviteca</a>
+             </div>
+             <div class="menubtn">
+                 <a class="menutext" href="#">Sobre nosotros</a>
+             </div>
+             <div class="menubtn">
+                 <a class="menutext" href="location.html">Ubicación</a>
+             </div>
+             <div class="menubtn">
+                 <a class="menutext" href="contact.html">Contacto</a>
+             </div>
+        </div>
+
     </div>   
- 
-<br>
-<br>
-<br>
-<br>
-<section class="ctc">
+    <div class="main-image">
+        <div class="info">
+           <img src="/img/tire.png" alt=""> <h2>Accesorios para vehículos</h2>
+        </div>
 
-    <img class="raceflag" src="background/raceflag.jpg" alt="">
-<div class="contactsection"> 
+    </div>
+</header>
 
-  <h2 id="msg6">¡Déjanos un mensaje! <br> 
-    y lo responderemos lo más pronto posible
-  </h2>
+<main class="main">
 
+   <!-- <section class="ctc">
 
- <div class="contactbox">
+     <!--    <img class="raceflag" src="background/raceflag.jpg" alt=""> 
+    <div class="contactsection"> 
+    
+      <h2 id="msg6">¡Déjanos un mensaje! 
+        y lo responderemos lo más pronto posible
+      </h2>
+    
+    
+     <div class="contactbox">
+    
+      <!-- <form id="contact-form" method="POST" action="send" enctype="multipart/form-data"> PARA EL FINAL
+    
+        <label for="name">Nombre:
+            <input class="inputs" id="name" name="nombre" type="text" placeholder="Juanin Juan Harry" style="margin-left: 1px;">
+        </label>
+        <label for="email">Correo: 
+            <input class="inputs" id="email" name="correo" type="email" placeholder="juanito@juanin.cl" style="margin-left: 14px;">
+        </label>
+        <label for="phone">Asunto:
+            <input class="inputs" id="subject" name="asunto" type="text">
+        </label>
+        <label for="message">Mensaje:
+            <textarea class="inputs" id="messagemail" name="mensaje" for="text" id="" cols="30" rows="10"> </textarea>
+        </label>
+        <label for="input">
+            <input class="inputs" type="submit" value="ENVIAR">
+        </label>    
+      </form>
+     </div>
+    </div>
+    </section> --> 
+</main>
 
-  <!-- <form id="contact-form" method="POST" action="send" enctype="multipart/form-data"> PARA EL FINAL-->
-
-    <label for="name">Nombre:
-        <input class="inputs" id="name" name="nombre" type="text" placeholder="Juanin Juan Harry" style="margin-left: 1px;">
-    </label><br>
-    <label for="email">Correo: 
-        <input class="inputs" id="email" name="correo" type="email" placeholder="juanito@juanin.cl" style="margin-left: 14px;">
-    </label><br>
-    <label for="phone">Asunto:
-        <input class="inputs" id="subject" name="asunto" type="text">
-    </label><br>
-    <label for="message">Mensaje:
-        <textarea class="inputs" id="messagemail" name="mensaje" for="text" id="" cols="30" rows="10"> </textarea>
-    </label>
-    <label for="input"><br>
-        <input class="inputs" type="submit" value="ENVIAR">
-    </label>
-        
-  </form>
-
- </div>
-
-</div>
-  
-
-</section>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 <div class="footer">
     <div class="spclogofooter">
-    <img id="logofooter" src="img/logo.png" alt="">
-    <div> <p class="textfooter address1"> Dirección 123, Comuna.<br> <!-- CAMBIAR -->
-     +56 9 1111 1111 <br>
-     email@email.com </p> <hr class="verthr">
-     <p class="textfooter address2" style="margin-left: 15px;">Dirección 123, Comuna.<br> <!-- CAMBIAR -->
-        +56 9 1111 1111 <br>
-        email@email.com</p> </div> 
+        <img id="logofooter" src="img/logo.png" alt="">
+         <div> 
+           <p class="textfooter address1"> Dirección 123, Comuna.<br> <!-- CAMBIAR -->
+                                           +56 9 1111 1111 <br>
+                                           email@email.com </p> <hr class="verthr">
+           <p class="textfooter address2"> Dirección 123, Comuna.<br> <!-- CAMBIAR -->
+                                           +56 9 1111 1111 <br>
+                                           email@email.com</p>
+         </div>  
     </div>
     <div class="footerlist">
      <ul class="footerlinks">
@@ -122,6 +115,7 @@
       <li class="linklist"><a class="footertext" href="#">Baterías</a></li>
       <li class="linklist"><a class="footertext" href="#">Serviteca</a></li>
       <li class="linklist"><a class="footertext" href="#">Sobre nosotros</a></li>
+      <li class="linklist"><a class="footertext" href="location.html">Ubicación</a></li>
       <li class="linklist"><a class="footertext" href="contact.html">Contacto</a></li>
      </ul>
     </div>

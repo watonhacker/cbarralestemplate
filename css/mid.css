@@ -28,7 +28,7 @@
     box-shadow: 1px 5px 10px #283571;
 }
 .container{
-    background-image: url('/img/tyres.png');
+    background-image: url('https://raw.githubusercontent.com/watonhacker/cbarralestemplate/main/img/tyres.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
