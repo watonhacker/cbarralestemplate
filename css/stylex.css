@@ -45,7 +45,7 @@ body{
 }
 
 .main-image {
-    background-image: url('/background/main-image.jpg');
+    background-image: url('https://raw.githubusercontent.com/watonhacker/cbarralestemplate/main/background/main-image.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
