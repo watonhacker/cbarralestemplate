@@ -95,7 +95,30 @@ body{
     transition: 0.7s;
 }
 
+.logosection{
+    display: inline-flex;
+    margin: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
+.logos{
+    position: relative;
+    max-width: 15%;
+    max-height: 15%;
+    margin: 0 2rem 0 2rem;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.kia {
+    max-width: 10%;
+    max-height: 10%;
+}
 
 /* RESPONSIVE */
 
@@ -103,10 +126,31 @@ body{
     .menutext{
         font-size: 18px;
     }
-
+    
+    .logosection{
+        margin-top: -1rem;
+        margin-bottom: 1rem;
+    }
 
 }
 
+@media screen and (max-width: 768px) {
+     .logosection{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .logos{
+        min-width: 20%;
+        min-height: 20%;
+        margin: 1rem;
+    }
+    .kia {
+        max-width: 4%;
+        max-height: 4%;
+    }
+
+}
 
 @media screen and (max-width: 1279px) {
     .menutext{

@@ -35,14 +35,12 @@ body {
 .slider {
     width:95%;
     margin:3rem auto;
+    margin-bottom: 0;
     height:200px;
     overflow: hidden;
-
     line-height:0;
     padding:0;
 
-
-    
 }
 .slider ul li {
     list-style: none;
