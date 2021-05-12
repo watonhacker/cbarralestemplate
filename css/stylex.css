@@ -8,6 +8,7 @@ html{
 body{
     margin: 0;
     padding:0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #logo{
@@ -95,6 +96,19 @@ body{
     transition: 0.7s;
 }
 
+.logo-container {
+    margin:4rem 0;
+}
+
+.logo-container h2 {
+    font-size: 1.7rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+.logo-container h3 {
+    font-weight: 500;
+}
+
 .logosection{
     display: inline-flex;
     margin: 2rem;
@@ -107,8 +121,8 @@ body{
 
 .logos{
     position: relative;
-    max-width: 15%;
-    max-height: 15%;
+    max-width: 11%;
+    max-height: 11%;
     margin: 0 2rem 0 2rem;
     display: block;
     justify-content: center;
@@ -116,8 +130,8 @@ body{
 }
 
 .kia {
-    max-width: 10%;
-    max-height: 10%;
+    max-width: 6%;
+    max-height: 6%;
 }
 
 /* RESPONSIVE */

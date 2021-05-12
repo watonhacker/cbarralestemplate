@@ -33,13 +33,23 @@ body {
 .container-slider {
     padding-top:1rem;
     text-align: center;
+    
+}
+
+.container-slider > h2 {
+    font-size: 1.7rem;
+    letter-spacing: 2px;
+}
+
+.container-slider > h3 {
+    font-weight: 500;
 }
 
 .slider {
     width:95%;
     margin:3rem auto;
     margin-bottom: 0;
-    height:200px;
+
     overflow: hidden;
     line-height:0;
     padding:0;
@@ -98,6 +108,9 @@ body {
         height:300px;
     }
 
+
+    
+
 }
 
 
@@ -136,9 +149,15 @@ body {
         height:50px;
     }
 
+    .cards-container .tires {
+
+        height:100%;
+
+    }
+
     .skills{
 
-        background: #111;
+        background: #222;
         color: white;
         box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.5);
         margin: 40px;
@@ -176,10 +195,32 @@ body {
     }
     .slider {
         width:80%;
-        height:600px;
+        height:500px;
         max-width:1440px;
     }
+
+    .skills:not(:hover) {
+        transition: transform .5s;
+        -webkit-transition: transform .5s;
+        -moz-transition: transform .5s;
+        -ms-transition: transform .5s;
+        -o-transition: transform .5s;
+    }
+
+    .skills:hover{
+        transform: translateY(-20px);
+        -webkit-transform: translateY(-20px);
+        -moz-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+        -o-transform: translateY(-20px);
+        transition: transform .5s;
+        -webkit-transition: transform .5s;
+        -moz-transition: transform .5s;
+        -ms-transition: transform .5s;
+        -o-transition: transform .5s;
+}
  }
+
 
 
 
@@ -201,6 +242,7 @@ body {
     font-family: 'Montserrat', sans-serif; }
     .contacto h3 {
       color: #333;;
+      font-size: 1.5rem;
 
       font-weight: bold;
   }
